@@ -6,5 +6,8 @@
 *.out
 
 
-img/favorite_app_reviews/*
+img/favorite_app_reviews/*.png
+img/favorite_app_reviews/*.jpg
+img/favorite_app_reviews/*.jpeg
+
 private/*
