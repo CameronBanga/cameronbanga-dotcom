@@ -1854,9 +1854,9 @@ html, body {
 	 height:201px;
 }
 .social-icons{
-	width:215px;
-	margin: 0px auto 35px;
-	padding-top:50px;
+	width:356px;
+	margin: auto auto;
+	padding-top:35px;
 }
 .socialFooter .social-icons .social{
 /*	float: right;
@@ -1871,9 +1871,11 @@ html, body {
 	float: left;
 	margin: 0 10px;
 }.socialFooter .social-icons .social div:hover{opacity: 0.7;}
-.socialFooter .social-icons .social .face{ background-position: right bottom;}
-.socialFooter .social-icons .social .twitt{ background-position: left bottom;}
-.socialFooter .social-icons .social .plus{ background-position: -51px bottom;}
+.socialFooter .social-icons .social .github{ background-position: left bottom;}
+.socialFooter .social-icons .social .instagram{ background-position: 204px bottom;}
+.socialFooter .social-icons .social .flickr{ background-position: 102px bottom;}
+.socialFooter .social-icons .social .twitt{ background-position: 153px bottom;}
+.socialFooter .social-icons .social .fitbit{ background-position: right bottom;}
 .socialFooter .copy{
 	text-align:center;
 	font-family: 'Open Sans', sans-serif;
