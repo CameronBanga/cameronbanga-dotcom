@@ -4,6 +4,7 @@
     <title>Cameron Banga</title>
 
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
   </head>
 
 <header id="header" class="header header--fixed hide-from-print" role="banner">
@@ -43,12 +44,12 @@
 <script>
 (function() {
     var header = new Headroom(document.querySelector("#header"), {
-        tolerance: 5,
-        offset : 205,
-        classes: {
-          initial: "animated",
-          pinned: "slideDown",
-          unpinned: "slideUp"
+      	  "tolerance": 4,
+	  	  "offset": 80,
+	  	  "classes": {
+				"initial": "animated",
+				"pinned": "swingInX",
+				"unpinned": "swingOutX"
         }
     });
     header.init();
