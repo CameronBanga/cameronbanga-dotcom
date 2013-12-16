@@ -7,11 +7,7 @@ $(document).ready(function(){
 		$.vegas('slideshow', {
 			  backgrounds:[
 				
-				{ src:'img/slider/01.jpg', fade:1000 },
-{ src:'img/slider/01.jpg', fade:1000 },
-{ src:'img/slider/02.jpg', fade:1000 },
-{ src:'img/slider/03.jpg', fade:1000 },
-{ src:'img/slider/04.jpg', fade:1000 }
+				{ src:'img/slider/01.jpg', fade:10000 },
 			  ]
 			})('overlay', {
 			  src:'css/vegas/overlays/05.png'
